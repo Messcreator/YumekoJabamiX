@@ -7,11 +7,11 @@ from telegram import ParseMode, Update, ChatPermissions
 from telegram.ext import CallbackContext, run_async
 from telegram.error import BadRequest
 
-import SaitamaRobot.modules.nekostrings as nekostrings
-from SaitamaRobot import dispatcher
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.helper_funcs.chat_status import (is_user_admin)
-from SaitamaRobot.modules.helper_funcs.extraction import extract_user
+import YoneRobot.modules.nekostrings as nekostrings
+from YoneRobot import dispatcher
+from YoneRobot.modules.disable import DisableAbleCommandHandler
+from YoneRobot.modules.helper_funcs.chat_status import (is_user_admin)
+from YoneRobot.modules.helper_funcs.extraction import extract_user
 
 
 
