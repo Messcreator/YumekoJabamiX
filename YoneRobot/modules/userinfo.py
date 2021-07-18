@@ -293,7 +293,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThis user is a Hokage, The GOD OF SHINOBI!"
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe person here is one of the Shadow Hokage, Their Ranking is UCHIHA GHOST.
+        text += "\n\nThe person here is one of the Shadow Hokage, Their Ranking is UCHIHA GHOST."
         disaster_level_present = True
     elif user.id in DEMONS:
         text += "\n\nThis person here is one of the Assassination Squad, Namely, ANBU."
