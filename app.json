@@ -1,12 +1,12 @@
 {
-      "name": "YoneRobot",
-      "description": "Telegram group management bot.",
+      "name": "EmiliaBot",
+      "description": "Anime Themed Telegram Group Management Bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "yone"
+         "emilia"
       ],   
    "repository": "https://t.me/itsMeLegend",
    "addons": [
@@ -104,9 +104,9 @@
         "required": false
       },
       "DEV_USERS": {
-         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Emilia support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1665347268"
+         "value": "1694546593"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
