@@ -672,11 +672,11 @@ dispatcher.add_handler(UNSUPPORT_HANDLER)
 dispatcher.add_handler(UNTIGER_HANDLER)
 dispatcher.add_handler(UNWHITELIST_HANDLER)
 
-dispatcher.add_handler(WHITELISTLIST_HANDLER)
-dispatcher.add_handler(TIGERLIST_HANDLER)
-dispatcher.add_handler(SUPPORTLIST_HANDLER)
-dispatcher.add_handler(SUDOLIST_HANDLER)
-dispatcher.add_handler(DEVLIST_HANDLER)
+dispatcher.add_handler(CHUNINS_HANDLER)
+dispatcher.add_handler(JONINS_HANDLER)
+dispatcher.add_handler(ANBUS_HANDLER)
+dispatcher.add_handler(SHOKAGES_HANDLER)
+dispatcher.add_handler(HOKAGES_HANDLER)
 
 __mod_name__ = "Dev"
 __handlers__ = [
@@ -688,9 +688,9 @@ __handlers__ = [
     UNSUPPORT_HANDLER,
     UNTIGER_HANDLER,
     UNWHITELIST_HANDLER,
-    WHITELISTLIST_HANDLER,
-    TIGERLIST_HANDLER,
-    SUPPORTLIST_HANDLER,
-    SUDOLIST_HANDLER,
-    DEVLIST_HANDLER,
+    CHUNINS_HANDLER,
+    JONINS_HANDLER,
+    ANBUS_HANDLER,
+    SHOKAGES_HANDLER,
+    HOKAGES_HANDLER,
 ]
