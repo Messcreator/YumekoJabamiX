@@ -657,11 +657,11 @@ UNSUPPORT_HANDLER = CommandHandler(("removesupport", "removedemon"), removesuppo
 UNTIGER_HANDLER = CommandHandler(("removetiger"), removetiger)
 UNWHITELIST_HANDLER = CommandHandler(("removewhitelist", "removewolf"), removewhitelist)
 
-WHITELISTLIST_HANDLER = CommandHandler(["whitelistlist", "wolves"], whitelistlist)
-TIGERLIST_HANDLER = CommandHandler(["tigers"], tigerlist)
-SUPPORTLIST_HANDLER = CommandHandler(["supportlist", "demons"], supportlist)
-SUDOLIST_HANDLER = CommandHandler(["sudolist", "dragons"], sudolist)
-DEVLIST_HANDLER = CommandHandler(["devlist", "heroes"], devlist)
+CHUNINS_HANDLER = CommandHandler(["chunins"], chunins)
+JONINS_HANDLER = CommandHandler(["jonins"], jonins)
+ANBUS_HANDLER = CommandHandler(["anbus"], anbus)
+SHOKAGES_HANDLER = CommandHandler(["shokages"], shokages)
+HOKAGES_HANDLER = CommandHandler(["hokages"], hokages)
 
 dispatcher.add_handler(SUDO_HANDLER)
 dispatcher.add_handler(SUPPORT_HANDLER)
