@@ -5,7 +5,7 @@
 
 # EmiliaAnimeBot2.0
 Find Me On Telegram [✨Emilia✨](https://t.me/EmiliaAnimeBot)
-This Bot Runs On Python and is Completely Stuffed with Features like Anime 
+This Bot Runs On Python and is Completely Stuffed with Features like Anime Searches, Bans, Spam Protection, AI Chatbot,  
 
 ## Steps to Self Host
 The easiest way to deploy this Bot is Via Heroku
@@ -14,11 +14,11 @@ The easiest way to deploy this Bot is Via Heroku
 CREDITS
 ```
 ❤️ MashaRobot = Dark Prince 
-❤️ DaisyX = Inuka
+❤️ DaisyX = TeamDaisy
 ❤️ TheHamkerCat = WBB
 ❤ YoneRobot = Noob-Kittu 
 
-This Bot Is Created By @Izumibotofficial ! if your kanging this without fork at least give a credit to get a smile of my hard work.
+This Bot Is Created By @Izumibotofficial on Telegram! if you're kanging this without fork at least give a credit to get a smile of my hard work.
 
 
 
