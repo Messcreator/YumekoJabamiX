@@ -67,3 +67,5 @@ nudepy
 
 motor
 cloudscraper
+
+pytube
