@@ -14,7 +14,7 @@ from pyrogram import filters
 from YoneRobot import BOT_ID
 from YoneRobot.helper_extra.aichat import add_chat, get_session, remove_chat
 from YoneRobot.pyrogramee.pluginshelper import admins_only, edit_or_reply
-from YoneRobot import pbot as Yone
+from YoneRobot import pbot as emilia
 
 translator = google_translator()
 import requests
@@ -39,15 +39,15 @@ async def fetch(url):
         return
 
 
-yone_chats = []
+emilia_chats = []
 en_chats = []
 
-@Yone.on_message(
+@emilia.on_message(
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
 async def hmm(_, message):
-    global yone_chats
+    global emilia_chats
     if len(message.command) != 2:
         await message.reply_text(
             "I only recognize `/chatbot on` and /chatbot `off only`"
@@ -59,20 +59,20 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Emilia AI Already Activated In This Chat")
+            await lel.edit("emilia AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"Emilia AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"emilia AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Emilia AI Was Not Activated In This Chat")
+            await lel.edit("emilia AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Emilia AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"emilia AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -88,7 +88,7 @@ async def hmm(_, message):
         )
 
 
-@Yone.on_message(
+@emilia.on_message(
     filters.text
     & filters.reply
     & ~filters.bot
@@ -114,9 +114,9 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("yone", "Aco")
-        test = test.replace("yone", "Aco")
-        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@YoneRobot&ownername=@A_viyu"
+        test = test.replace("emilia", "Aco")
+        test = test.replace("emilia", "Aco")
+        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=emilia&ownername=@pranavajay"
 
         try:
             r = requests.request("GET", url=URL)
@@ -130,7 +130,7 @@ async def hmm(client, message):
 
         pro = result["message"]
         try:
-            await Yone.send_chat_action(message.chat.id, "typing")
+            await emilia.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -176,10 +176,10 @@ async def hmm(client, message):
                 return
         # test = emoji.demojize(test.strip())
 
-        # Kang with the credits bitches @InukaASiTH
-        test = test.replace("yone", "Aco")
-        test = test.replace("yone", "Aco")
-        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@YoneRobot&ownername=@A_viyu"
+        # Kang with the credits bitches @InukaASiTHAsunaRobot
+        test = test.replace("asuna", "Aco")
+        test = test.replace("asuna", "Aco")
+        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=emilia&ownername=@PranavAjay"
         try:
             r = requests.request("GET", url=URL)
         except:
@@ -196,13 +196,13 @@ async def hmm(client, message):
             except:
                 return
         try:
-            await Yone.send_chat_action(message.chat.id, "typing")
+            await emilia.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
 
 
-@Yone.on_message(
+@emilia.on_message(
     filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot
 )
 async def inuka(client, message):
@@ -248,12 +248,12 @@ async def inuka(client, message):
         except:
             return
 
-    # test = emoji.demojize(test.strip())
+    # test = emoji.demojize(test.strip()) 
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("yone", "Aco")
-    test = test.replace("yone", "Aco")
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@YoneRobot&ownername=@A_viyu"
+    test = test.replace("emilia", "Aco")
+    test = test.replace("emilia", "Aco")
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=emilia&ownername=Moezilla"
     try:
         r = requests.request("GET", url=URL)
     except:
@@ -268,14 +268,14 @@ async def inuka(client, message):
     if not "en" in lan and not lan == "":
         pro = translator.translate(pro, lang_tgt=lan[0])
     try:
-        await Yone.send_chat_action(message.chat.id, "typing")
+        await emilia.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
 
 
-@Yone.on_message(
-    filters.regex("yone|yone|Yone|Yone|Yone")
+@emilia.on_message(
+    filters.regex("emilia|Emilia|EMILIA")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -329,9 +329,9 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("yone", "Aco")
-    test = test.replace("yone", "Aco")
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@YoneRobot&ownername=@A_viyu"
+    test = test.replace("emilia", "Aco")
+    test = test.replace("emilia", "Aco")
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@emilia&ownername=@pranavajay"
     try:
         r = requests.request("GET", url=URL)
     except:
@@ -348,7 +348,7 @@ async def inuka(client, message):
         except Exception:
             return
     try:
-        await Yone.send_chat_action(message.chat.id, "typing")
+        await emilia.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
