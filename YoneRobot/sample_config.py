@@ -18,13 +18,13 @@ class Config(object):
     API_HASH = "awoo"
     TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Kittu"
-    SUPPORT_CHAT = "Kora_Support"  # Your own group for support, do not add the @
+    OWNER_USERNAME = "Izumi"
+    SUPPORT_CHAT = "EmiiliaAnimeBotSupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -14272475246
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -17253835276
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
@@ -58,11 +58,11 @@ class Config(object):
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "Idk"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
     TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
-        "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
+        "Idk"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
     AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
