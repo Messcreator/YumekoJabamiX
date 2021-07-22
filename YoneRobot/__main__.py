@@ -90,6 +90,10 @@ buttons = [
         ),
     ],
     [
+        InlineKeyboardButton(text="Music🎶", url= "t.me/EmiliaMusicBot?startgroup=true")
+    ],
+
+    [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
     ],
 ]
