@@ -1,10 +1,10 @@
 
 <p align="center">
-  <img src="https://telegra.ph/file/503b17258918049e8105c.jpg">
+  <img src="https://telegra.ph/file/45a0613e56b647d416e67.jpg">
 </p>
 
-# EmiliaAnimeBot2.0
-Find Me On Telegram [✨Emilia✨](https://t.me/EmiliaAnimeBot)
+# YumekoJabamiX
+Find Me On Telegram [✨Yumeko✨](https://t.me/yumekojabami_robot)
 This Bot Runs On Python and is Completely Stuffed with Features like Anime Searches, Bans, Spam Protection, AI Chatbot,  
 
 ## Steps to Self Host
@@ -18,7 +18,7 @@ CREDITS
 ❤️ TheHamkerCat = WBB
 ❤ YoneRobot = Noob-Kittu 
 
-This Bot Is Created By @Izumibotofficial on Telegram! if you're kanging this without fork at least give a credit to get a smile of my hard work.
+This Bot Is Created By @animelover_devil on Telegram! if you're kanging this without fork at least give a credit to get a smile of my hard work.
 
 
 
