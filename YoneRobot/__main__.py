@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [⭐](https://telegra.ph/file/bea37e190fe150be7b432.jpg), I'ᴍ Eᴍɪʟɪᴀ, ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help Fᴏʀ Kɴᴏᴡɪɴɢ ᴡʜᴀᴛ I ᴀᴍ Cᴀᴘᴀʙʟᴇ ᴏғ:   
+ʜᴇʟʟᴏ [⭐](https://telegra.ph/file/4b1094c11af65b3653690.jpg), I'ᴍ Yumeko Jabami, I love to gamble on life and have unbeatable iq ,
+I will ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help Fᴏʀ Kɴᴏᴡɪɴɢ ᴡʜᴀᴛ I ᴀᴍ Cᴀᴘᴀʙʟᴇ ᴏғ:   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝙰𝙳𝙳 𝙴𝙼𝙸𝙻𝙸𝙰 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url="t.me/EmiliaAnimeBot?startgroup=true"),
+            text="➕️ 𝙰𝙳𝙳 Yumeko 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url="t.me/EmiliaAnimeBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
@@ -90,7 +90,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Music🎶", url= "t.me/EmiliaMusicBot?startgroup=true")
+        InlineKeyboardButton(text="Anime Channel", url= "t.me/Anime_English_Dub_Devil")
     ],
 
     [
@@ -100,7 +100,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` Eᴍɪʟɪᴀ[🙋‍♀️](https://telegra.ph/file/469fe625ffedac05cb23f.jpg) 
+`ʜɪ.. ɪ'ᴍ` Yumeko Jabami[🙋‍♀️](https://telegra.ph/file/9b6c040484780daca507e.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
 yone_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
