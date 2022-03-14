@@ -3,8 +3,8 @@ from tswift import Song
 from telegram import Bot, Update, Message, Chat
 from telegram.ext import run_async
 
-from jarvis import dispatcher
-from jarvis.modules.disable import DisableAbleCommandHandler
+from YoneRobot import dispatcher
+from YoneRobot.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
